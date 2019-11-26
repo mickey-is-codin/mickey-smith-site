@@ -1,5 +1,5 @@
 import React from 'react';
-//import logo from './logo.svg';
+import './index.css';
 import './App.css';
 
 import Particles from 'react-particles-js';
@@ -7,9 +7,18 @@ import particleOpts from './particle-options.js';
 
 function App() {
   return (
-    <Particles
-      params={particleOpts}
-    />
+    <div>
+      <Mickey/>
+      <Particles
+        params={particleOpts}
+      />
+    </div>
+  );
+}
+
+function Mickey(props) {
+  return (
+
   );
 }
 

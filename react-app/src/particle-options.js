@@ -50,7 +50,7 @@ const particleOpts = {
       "distance": 300,
       "color": "#dbc72c",
       "opacity": 0.4,
-      "width": 2
+      "width": 1
     },
     "move": {
       "enable": true,
@@ -71,11 +71,11 @@ const particleOpts = {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
@@ -95,7 +95,7 @@ const particleOpts = {
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 100,
         "duration": 0.4
       },
       "push": {
