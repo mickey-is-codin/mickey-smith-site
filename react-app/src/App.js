@@ -9,9 +9,8 @@ function App() {
   return (
     <div>
       <Mickey/>
-      <Particles
-        params={particleOpts}
-      />
+      <div id="particles-js"></div>
+      <Particles params={particleOpts}/>
     </div>
   );
 }
@@ -19,7 +18,17 @@ function App() {
 function Mickey(props) {
   return (
     <div>
-
+      <div class="row justify-content-around my-5">
+        <div class="jumbotron text-center col-6">
+          <div class="container">
+            <h1 class="jumbotron-heading">Mickey Smith</h1>
+            <hr class="my-4"/>
+            <p class="p-sub-intro">
+              Introductory information here.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

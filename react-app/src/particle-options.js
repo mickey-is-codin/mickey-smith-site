@@ -1,7 +1,7 @@
 const particleOpts = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 30,
       "density": {
         "enable": true,
         "value_area": 800
@@ -54,7 +54,7 @@ const particleOpts = {
     },
     "move": {
       "enable": true,
-      "speed": 12,
+      "speed": 3,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -68,7 +68,7 @@ const particleOpts = {
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
