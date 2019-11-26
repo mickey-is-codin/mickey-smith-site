@@ -1,2 +1,7 @@
-# mickey-smith-site
-Repository for tracking changes to my personal website.
+# My Personal Website
+
+# Introduction
+
+# About Me
+
+# Project Layout
