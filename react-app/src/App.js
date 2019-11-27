@@ -22,13 +22,13 @@ function Mickey(props) {
       </header>
 
       <main className="page-meat row justify-content-around">
-        <div className="page-left col-3">
+        <div className="page-left col-1">
         </div>
-        <div className="page-main col-3">
-          <h1 className="">Hello</h1>
-          <p className="lead">Text here for writing some stuff that will be additional</p>
+        <div className="page-main col-6">
+          <h1 className="">Mickey Smith</h1>
+          <p className="lead">Research Assistant at the Shirley Ryan Abilitylab</p>
         </div>
-        <div className="page-right col-3">
+        <div className="page-right col-1">
         </div>
       </main>
 
@@ -42,7 +42,7 @@ function Mickey(props) {
 function Background() {
   return (
     <div className="particles-container">
-      <Particles height="2000px" className="particles" params={particleOpts}/>
+      <Particles className="particles" params={particleOpts}/>
     </div>
   );
 }
