@@ -9,28 +9,29 @@ function App() {
   return (
     <div>
       <Mickey/>
-      <div id="particles-js"></div>
-      <Particles params={particleOpts}/>
     </div>
   );
 }
 
 function Mickey(props) {
   return (
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <div className="wrapper d-flex flex-column">
 
-      <header class="masthead">
+      <header className="page-header p-2">
       </header>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">Mickey Smith</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p>
+      <main className="page-meat row justify-content-around">
+        <div className="page-left col-3">
+        </div>
+        <div className="page-main col-3">
+          <h1 className="">Hello</h1>
+          <p className="lead">Text here for writing some stuff that will be additional</p>
+        </div>
+        <div className="page-right col-3">
+        </div>
       </main>
 
-      <footer class="mastfoot">
+      <footer className="page-footer p-2">
       </footer>
 
     </div>
