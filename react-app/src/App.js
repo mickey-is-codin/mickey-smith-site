@@ -9,9 +9,7 @@ function App() {
   return (
     <div>
       <Mickey/>
-      <div className="particles-js">
-        <Particles params={particleOpts}/>
-      </div>
+      <Background/>
     </div>
   );
 }
@@ -37,6 +35,14 @@ function Mickey(props) {
       <footer className="page-footer p-2">
       </footer>
 
+    </div>
+  );
+}
+
+function Background() {
+  return (
+    <div className="particles-container">
+      <Particles height="2000px" className="particles" params={particleOpts}/>
     </div>
   );
 }
