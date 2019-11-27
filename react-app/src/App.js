@@ -9,6 +9,9 @@ function App() {
   return (
     <div>
       <Mickey/>
+      <div className="particles-js">
+        <Particles params={particleOpts}/>
+      </div>
     </div>
   );
 }
